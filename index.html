@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creative nature</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="viewport" content="device-width=width,initial-scale=1.0"  >
+    </head>
+    <body>
+        <div class="content">
+            <header>
+               <div class="logo">
+                <h1>LOGO</h1>
+               </div>
+
+                <nav>
+                    <ul>
+                        <li id="list">Home</li>
+                        <li id="list3">Info</li>
+                        <li id="list2">About</li>
+                    
+                        <li id="list4">Services</li>
+                        <li id="list5">Contact</li>
+                    </ul>
+                </nav>
+
+                <button id="menu" class="menu fa fa-bars"></button>
+            </header>
+            <main>
+                <h1>LIKE NATURE </h1>
+                <h1 style="color: aliceblue;">BE CREATIVE!</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus necessitatibus ad repellendus eaque, saepe dicta expedita, quae porro minima nemo, alias iste. Explicabo fuga reprehenderit nobis asperiores eius consectetur cumque!</p>
+                
+                <button class="info">MORE INFO</button>
+            </main>
+
+            <footer>
+
+                <i class="fa-brands fa-facebook-f"></i>
+                        
+                        
+                            <i class="fa-brands fa-twitter"></i>
+                        
+                        
+                            <i class="fa-brands fa-whatsapp"></i>
+            </footer>
+
+            <div class="circle"></div>
+            <div class="circles"></div>
+        </div>
+ 
+ 
+        <script>
+
+            document.querySelector('#menu').addEventListener('click',()=>{
+                document.querySelector('.content').classList.toggle('sethite');
+                document.querySelector('nav ').classList.toggle('shownav');
+                document.querySelector('nav ul').classList.toggle('showul');
+                document.querySelector('#list4').classList.toggle('showli');
+                document.querySelector('#list3').classList.toggle('showli');
+                document.querySelector('#list2').classList.toggle('showli');
+                document.querySelector('#list5').classList.toggle('showli');
+                document.querySelector('#list').classList.toggle('showli');
+            }
+            );
+
+
+
+        </script>
+    </body>
+</html>
